@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<picture>
+		<source media="(min-width: 1280px)" srcset="http://127.0.0.1:5500/imagecompressor/2560х1440-min.jpg" />
+		<source media="(min-width: 1024px)" srcset="http://127.0.0.1:5500/imagecompressor/1280х800-min.jpg" />
+		<source media="(min-width: 873px)" srcset="http://127.0.0.1:5500/imagecompressor/1024х768-min.jpg" />
+		<source media="(min-width: 393px) and (orientation: landscape)"
+			srcset="http://127.0.0.1:5500/imagecompressor/873x393-min.jpg" />
+		<source media="(min-width: 393px)" srcset="http://127.0.0.1:5500/imagecompressor/768х1024-min.jpg" />
+		<img src="http://127.0.0.1:5500/imagecompressor/393x873-min.jpg" alt="" />
+	</picture>
+</body>
+
+</html>
