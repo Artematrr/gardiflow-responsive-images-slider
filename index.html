@@ -53,10 +53,6 @@
 	<link rel="stylesheet" href="/assets/components/ajaxform/css/default.css" type="text/css" />
 
 	<style>
-		.l-main {
-			/* margin-top: 0; */
-		}
-
 		.sliderMainBannerImg img {
 			object-fit: cover;
 		}
@@ -73,6 +69,12 @@
 			#sliderMainBanner .page-toggles {
 				width: calc(100% - 56px);
 				left: 40px;
+			}
+		}
+
+		@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+			.l-main {
+				margin-top: 72px;
 			}
 		}
 	</style>
